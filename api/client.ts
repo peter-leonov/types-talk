@@ -6,7 +6,6 @@ const getTodo = (id: number): Promise<Todo> =>
 async function renderTodo(todoId: number) {
   const todo = await getTodo(todoId);
   console.log(todo.title);
-  console.log(todo.title);
 }
 
 renderTodo(1);
